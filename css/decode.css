@@ -109,7 +109,13 @@ https://templatemo.com/tm-538-digital-trend
     letter-spacing: 0;
     color: var(--secondary-color);
   }
-
+.logo-image{
+    width: 106px;
+    height: 46px;
+    /*border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;*/
+}
 
   /*  BLOCKQUOTES */
   .quote {
@@ -221,7 +227,7 @@ https://templatemo.com/tm-538-digital-trend
   -----------------------------------------*/
 
   .navbar {
-    background: var(--menu-bg);
+    background: #ffffff;
     z-index: 2;
     top: 0;
     right: 0;
@@ -230,13 +236,13 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .navbar-brand {
-    color: var(--white-color);
+    color: #6267ad;
     font-size: var(--h2-font-size);
   }
 
   .nav-link {
-    color: var(--white-color);
-    font-size: var(--menu-font-size);
+    color: #6267ad;
+        font-size: var(--menu-font-size);
     letter-spacing: 0.4px;
     margin: 0 1.6em;
     padding: 0.6em;
@@ -348,7 +354,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .hero-bg {
-    background: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%);
+    background: linear-gradient(170deg, #263b87 64%, var(--white-color) 30%);
   }
 
   .hero-image {
